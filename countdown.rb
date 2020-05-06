@@ -7,7 +7,7 @@ Our Ruby program executes so quickly that it doesn't actually count down at the 
 def countdown
   num = 10 
   while num>=0 
-  puts "#{num} SECOND (S)!"
+  puts "#{num} SECOND(S)!"
   num-= 1 
   puts "HAPPY NEW YEAR!"
 end
