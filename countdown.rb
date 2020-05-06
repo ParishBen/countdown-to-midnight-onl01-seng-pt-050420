@@ -4,8 +4,7 @@ Our Ruby program executes so quickly that it doesn't actually count down at the 
 =end
 
 
-def countdown
-  num = 10 
+def countdown(num)
   while num>=0 
   puts "#{num} SECOND(S)!"
   num-= 1 
